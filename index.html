@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bella - Sua Secretária Pessoal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -46,80 +49,82 @@
             <h2>A sua própria secretária pessoal, <br> assim como nos filmes.</h2>
 
             <div class="container">
-                <div class="card">
+                <div class="card-item">
                     <h3>Converse <br> Naturalmente</h3>
                     <p>A Bella se comunica como um humano. Ela entende suas necessidades e sempre responde de maneira
                         eficiente.</p>
                 </div>
-                <div class="card">
+                <div class="card-item">
                     <h3>Nunca mais esqueça <br> aniversários</h3>
                     <p>Avise a Bella quando serão seus próximos compromissos e receba lembretes precisos e carinhosos
                         através do seu WhatsApp.</p>
                 </div>
-                <div class="card">
+                <div class="card-item">
                     <h3>Nunca mais esqueça <br> reuniões</h3>
                     <p>Diga adeus aos dias de esquecimento. A Bella mantém você atualizado sobre todas as suas reuniões,
                         garantindo que você esteja sempre preparado e no horário.</p>
                 </div>
-                <div class="card">
+                <div class="card-item">
                     <h3>Nunca mais esqueça <br> datas especiais</h3>
                     <p>Além de aniversários e reuniões, a Bella também lembra você de todas as datas importantes, sejam
                         elas profissionais ou pessoais, para que você nunca perca um momento significativo.</p>
                 </div>
             </div>
         </section>
-        <section class="section-bella">
+
+        <section class="section-main section-created-for">
+            <div class="img">
+                <img src="./images/image839.png" alt="Screenshot do Chat da Bella">
+            </div>
             <div class="container">
-                <div class="imagem">
-                    <img src="assets/images/screenshot-chat-2.png" alt="Screenshot do Chat da Bella">
-                </div>
-                <div class="texto">
-                    <h2>A Bella foi criada para:</h2>
-                    <div class="dropdown">
-                        <div class="dropdown-toggle">
-                            <h3>Uso Pessoal</h3>
-                            <svg width="12" height="6" viewBox="0 0 12 6" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.5 1.5L6 5.5L10.5 1.5" stroke="#212121" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <div class="dropdown-content">
-                            <p>Nunca mais esqueça aniversários e compromissos pessoais.</p>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <div class="dropdown-toggle">
-                            <h3>Uso Profissional</h3>
-                            <svg width="12" height="6" viewBox="0 0 12 6" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.5 5.5L6 1.5L10.5 5.5" stroke="#212121" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <div class="dropdown-content">
-                            <p>Tenha seus compromissos profissionais organizados com a Bella e nunca mais perca um prazo
-                                importante.</p>
+                <h2>A Bella foi criada para:</h2>
+                <div class="accordion" id="accordionExample">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Uso Pessoal
+                            </div>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Nunca mais esqueça aniversários e compromissos pessoais.
+                            </div>
                         </div>
                     </div>
-                    <div class="dropdown">
-                        <div class="dropdown-toggle">
-                            <h3>Uso da Família</h3>
-                            <svg width="12" height="6" viewBox="0 0 12 6" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.5 5.5L6 1.5L10.5 5.5" stroke="#212121" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Uso Profissional
+                            </div>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Nunca mais esqueça aniversários e compromissos pessoais.
+                            </div>
                         </div>
-                        <div class="dropdown-content">
-                            <p>Crie lembretes para eventos importantes da sua família, como aniversários, datas
-                                comemorativas e muito mais.</p>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Uso da Família
+                            </div>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Nunca mais esqueça aniversários e compromissos pessoais.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-cards">
+        <section style="display: none;" class="section-cards">
             <div class="container">
                 <div class="card">
                     <img src="assets/images/card-1.png" alt="Essa é a Bella">
@@ -139,81 +144,188 @@
                 </div>
             </div>
         </section>
-        <section class="section-peça">
+        <section class="section-main section-messages">
             <div class="container">
-                <div class="imagem">
-                    <img src="assets/images/screenshot-chat-3.png" alt="Screenshot do Chat da Bella">
+                <div class="msg">
+                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="content">
+                        <p class="hour">08:39</p>
+                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                    </div>
                 </div>
-                <div class="texto">
+                <div class="msg">
+                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="content">
+                        <p class="hour">15:27</p>
+                        <p class="msg-text">Preciso que me lembre quantos compromissos tenho essa semana...</p>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="content">
+                        <p class="hour">08:39</p>
+                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="content">
+                        <p class="hour">08:39</p>
+                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                    </div>
+                </div>
+                <div class="text">
                     <h2>Peça e a Bella Faz</h2>
                     <p>Conte com a Bella para gerenciar tarefas e compromissos. Apenas peça, e a Bella cuida do resto.
                     </p>
                 </div>
+                <div class="msg">
+                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="content">
+                        <p class="hour">08:39</p>
+                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="content">
+                        <p class="hour">08:39</p>
+                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="content">
+                        <p class="hour">08:39</p>
+                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="section-depoimentos">
+        <section class="section-main section-depositions">
             <div class="container">
-                <div class="estrelas">
-                    ★★★★★
+                <div class="context">
+                    <div>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <h2>Mais de 50 mil clientes</h2>
+                        <p>Quem já experimentou, se encantou.</p>
+                    </div>
+
+                    <div class="text">
+                        A Bella já conquistou a confiança de mais de 50 mil clientes em todo o Brasil. 
+                        Quem já experimentou a Bella adorou tanto que recomendou para amigos, colegas e familiares. Eles
+                        acharam a assistente virtual incrível e querem que mais pessoas tenham a mesma experiência
+                        positiva que tiveram.
+                    </div>
                 </div>
-                <h2>Mais de 50 mil clientes</h2>
-                <p>Quem já experimentou, se encantou.</p>
-                <div class="depoimentos">
-                    <div class="depoimento">
-                        <p>"Uma revolução no meu planejamento diário. A Bella simplificou minha vida de maneiras que eu
+
+                <div class="depositions-container">
+                    <div class="deposition-item">
+                        <p class="text">"Uma revolução no meu planejamento diário. A Bella simplificou minha vida de
+                            maneiras que eu
                             nem sabia que eram possíveis. Recomendo a todos!"</p>
-                        <div class="autor">
-                            <img src="assets/images/depoimento-1.png" alt="Foto de Camilla Brito">
-                            <h3>Camilla Brito</h3>
-                            <p>São Paulo, SP</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg.jpeg">
+                            </div>
+                            <div>
+                                <h3>Camilla Brito</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="depoimento">
-                        <p>Estou impressionado com a capacidade da Bella de se integrar perfeitamente ao meu dia a dia.
+                    <div class="deposition-item">
+                        <p class="text">Estou impressionado com a capacidade da Bella de se integrar perfeitamente ao
+                            meu dia a dia.
                             A gestão de compromissos nunca foi tão fácil e clara, me livrei de muitas preocupações</p>
-                        <div class="autor">
-                            <img src="assets/images/depoimento-2.png" alt="Foto de Ricardo Barros">
-                            <h3>Ricardo Barros</h3>
-                            <p>São Luís, MA</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg.jpeg">
+                            </div>
+                            <div>
+                                <h3>Ricardo Barros</h3>
+                                <p>São Luís, MA</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="depoimento">
-                        <p>A Bella superou todas as minhas expectativas. A facilidade de uso é incomparável, nenhum
+                    <div class="deposition-item">
+                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
+                            incomparável, nenhum
                             aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
-                        <div class="autor">
-                            <img src="assets/images/depoimento-3.png" alt="Foto de Marina Kelly">
-                            <h3>Marina Kelly</h3>
-                            <p>São Paulo, SP</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg.jpeg">
+                            </div>
+                            <div>
+                                <h3>Marina Kelly</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="depoimento">
-                        <p>A Bella superou todas as minhas expectativas. A facilidade de uso é incomparável, nenhum
+                    <div class="deposition-item">
+                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
+                            incomparável, nenhum
                             aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
-                        <div class="autor">
-                            <img src="assets/images/depoimento-3.png" alt="Foto de Marina Kelly">
-                            <h3>Marina Kelly</h3>
-                            <p>São Paulo, SP</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg.jpeg">
+                            </div>
+                            <div>
+                                <h3>Marina Kelly</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="depoimento">
-                        <p>A Bella superou todas as minhas expectativas. A facilidade de uso é incomparável, nenhum
+                    <div class="deposition-item">
+                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
+                            incomparável, nenhum
                             aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
-                        <div class="autor">
-                            <img src="assets/images/depoimento-3.png" alt="Foto de Marina Kelly">
-                            <h3>Marina Kelly</h3>
-                            <p>São Paulo, SP</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg.jpeg">
+                            </div>
+                            <div>
+                                <h3>Marina Kelly</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deposition-item">
+                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
+                            incomparável, nenhum
+                            aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg.jpeg">
+                            </div>
+                            <div>
+                                <h3>Marina Kelly</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-ganhe">
+
+        <section class="section-main section-audio">
             <div class="container">
-                <div class="imagem">
-                    <img src="assets/images/ganhe-com-bella.png" alt="Ilustração de um mapa mental com a Bella">
+                <div class="block">
+                    <img src="./images/image747.png" alt="Ilustração de um mapa mental com a Bella">
                 </div>
-                <div class="imagem">
-                    <img src="assets/images/o-futuro-chegou.png" alt="Ilustração abstrata do futuro">
+                <div class="block block-audio">
+                    <div class="content">
+                        <h3>O futuro chegou!</h3>
+                        <audio controls="true">
+                            <source src="./assets/audio/audio-example.mp3" type="audio/ogg">
+                        </audio>
+                    </div>
+                    <img src="./images/image-gradient.png" alt="Ilustração abstrata do futuro">
                 </div>
             </div>
         </section>
@@ -321,6 +433,9 @@
             </div>
         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="./app.js"></script>
 </body>
 
