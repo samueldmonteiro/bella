@@ -101,7 +101,7 @@ nav .icon img {
 
 .line {
     border: none;
-    margin-top: 0;
+    margin: 0;
     border-bottom: 2.4px solid #c4c4c4;
 }
 
@@ -364,7 +364,7 @@ nav .icon img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 70px;
+    0000ff margin-top: 70px;
     font-family: "Inter", sans-serif;
 }
 
@@ -605,6 +605,7 @@ nav .icon img {
 
 .section-questions {
     margin-top: 90px;
+    margin-bottom: 180px;
 }
 
 .section-questions .container {
@@ -644,8 +645,54 @@ nav .icon img {
 .section-questions .questions .accordion-item button {
     background-color: white !important;
     padding: 0px 31px 0px 31px;
-    border: none !important;
+    border: none;
     gap: 0px;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px;
     color: #90909B;
+    font-size: 16px;
+    box-shadow: none !important;
+}
+
+
+.section-questions .questions .accordion-item button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233497F9'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+
+}
+
+.section-questions .accordion-body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6C79;
+    text-align: left;
+}
+
+footer {
+    margin-top: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #B7B7BE;
+    padding: 8px 0px;
+}
+
+
+footer .developer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer a {
+   color: #B7B7BE !important;
+}
+
+footer img {
+    width: 56px;
+    object-fit: cover;
 }
