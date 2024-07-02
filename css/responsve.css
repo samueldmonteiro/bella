@@ -1,0 +1,262 @@
+@media (max-width: 1405px) {
+    .section-audio .container .block {
+        max-width: 475px;
+        height: 400px !important;
+    }
+
+}
+
+@media (max-width: 1270px) {
+    section.section-main {
+        padding: 0px 15px;
+    }
+
+    .section-messages .text {
+        min-width: 260px !important;
+        text-align: center;
+    }
+
+    .section-messages .text h2 {
+        font-size: 40px;
+    }
+
+    .section-messages .text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-depositions .context {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-depositions .context p,
+    .section-depositions .text {
+        text-align: center;
+    }
+
+    .depositions-container {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .depositions-container .deposition-item {
+        max-width: 312px;
+
+    }
+}
+
+@media (max-width: 1116px) {
+    .section-created-for .img {
+        flex: 1 0 500px;
+    }
+}
+
+
+@media (max-width: 1045px) {
+    nav.desktop {
+        display: none;
+    }
+
+    nav.mobile {
+        display: flex;
+    }
+
+    .hero {
+        margin-top: 140px;
+    }
+
+    .section-messages .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-messages .msg {
+        display: none;
+        margin: 0 !important;
+    }
+
+    .section-messages .msg-mobile {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 930px) {
+    .section-created-for {
+        flex-direction: column;
+    }
+
+    .section-created-for .img {
+        max-width: 750px;
+        margin-bottom: 30px;
+        flex: 0 0 0;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .hero {
+        padding: 0 5px;
+    }
+
+    .hero h1 {
+        font-size: 52.59px;
+        font-weight: 500;
+        line-height: 58.27px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .section-benefits {
+        margin-top: 80px;
+    }
+
+    .section-benefits h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .section-benefits .container {
+        gap: 20px;
+    }
+
+    .section-benefits .card-item {
+        width: auto;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -200px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(2) {
+        margin-left: 200px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(7) {
+        margin-left: 200px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(8) {
+        margin-left: -140px !important;
+    }
+
+    .depositions-container .deposition-item {
+        max-width: 380px;
+
+    }
+}
+
+@media (max-width: 578px) {
+    .hero h1 {
+        font-size: 42.59px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+
+    .section-benefits h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .section-benefits .card-item {
+        width: auto;
+        max-width: 270px;
+        height: auto;
+    }
+
+    .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -100px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(2) {
+        margin-left: 100px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(7) {
+        margin-left: 140px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(8) {
+        margin-left: -100px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .hero h1 {
+        font-size: 35.59px;
+        font-weight: 500;
+        line-height: 40.27px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -70px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(2) {
+        margin-left: 70px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(7) {
+        margin-left: 100px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(8) {
+        margin-left: -50px !important;
+    }
+}
+
+@media (max-width: 418px) {
+    .hero h1 {
+        font-size: 32.59px;
+        font-weight: 500;
+        line-height: 35.27px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero a {
+        font-size: 13px;
+    }
+
+    .hero a i {
+        font-size: 30px;
+    }
+
+    .hero a.btn-blue {
+        padding: 10px 20px;
+    }
+
+    .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -60px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(2) {
+        margin-left: 60px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(7) {
+        margin-left: 90px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(8) {
+        margin-left: -10px !important;
+    }
+}

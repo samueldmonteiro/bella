@@ -6,7 +6,7 @@ body {
     color: #212121;
 }
 
-nav {
+nav.desktop {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,20 @@ nav {
     height: 44px;
     padding: 28px 0;
 }
+nav.mobile {
+    display: none;
+    padding: 10px 20px;
+}
 
-nav ul {
+nav.mobile .offcanvas-end {
+    padding: 20px;
+}
+
+nav.mobile li {
+    font-size: 17px;
+}
+
+nav.desktop ul {
     display: flex;
     align-items: center;
     margin: 0 0 5px 0;
@@ -25,18 +37,18 @@ nav ul {
     column-gap: 35px;
 }
 
-nav li {
+nav.desktop li {
     margin-right: 20px;
 }
 
-nav a {
+nav.desktop a {
     text-decoration: none;
     font-weight: 500;
     color: #FBFBFD !important;
     font-size: 13px;
 }
 
-nav .icon {
+nav.desktop .icon, nav.mobile .icon {
     width: 32px;
     height: 32px;
     display: flex;
@@ -46,7 +58,7 @@ nav .icon {
     border-radius: 50%;
 }
 
-nav .icon img {
+nav.desktop .icon img, nav.desktop img {
     object-fit: cover;
     border-radius: 50%;
 }
@@ -293,6 +305,7 @@ nav .icon img {
 
 .section-messages .msg .profile img {
     object-fit: cover;
+    height: 45px !important;
 }
 
 .section-messages .msg .hour {
@@ -314,7 +327,7 @@ nav .icon img {
     background-color: #EBF3E9;
     padding: 12px 20px;
     border-radius: 0px 24.94px 24.94px 24.94px;
-    max-width: 280px;
+    max-width: 240px;
 }
 
 .section-depositions {
@@ -364,7 +377,7 @@ nav .icon img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    0000ff margin-top: 70px;
+    margin-top: 70px;
     font-family: "Inter", sans-serif;
 }
 
@@ -424,6 +437,7 @@ nav .icon img {
 
 .depositions-container .author img {
     object-fit: cover;
+    height: 45px;
 }
 
 

@@ -8,12 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsve.css">
+
 
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="desktop">
             <ul>
                 <li><a href="" class="icon"><img src="./images/0d3d419882a2ea27fcfce37bb885481e.jpeg" alt=""></a></li>
                 <li><a href="#">Início</a></li>
@@ -24,6 +26,51 @@
                 <li><a href="#">Tire duas dúvidas</a></li>
                 <li><a href="#" class="btn-blue">Comprar</a></li>
             </ul>
+        </nav>
+
+
+        <nav class="mobile navbar bg-body-tertiary fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand icon" href="#"><img src="./images/0d3d419882a2ea27fcfce37bb885481e.jpeg"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="#" class="btn-blue">Comprar</a>
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quem é a Bella</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Beneficios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Depoimentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quanto custa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tire duas dúvidas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" class="btn-blue">Comprar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
         <div class="hero">
             <h1>Não organize sua vida, <br> eu organizo para você</h1>
@@ -146,32 +193,32 @@
         </section>
         <section class="section-main section-messages">
             <div class="container">
-                <div class="msg">
+                <div class="msg msg-mobile">
                     <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
                     <div class="content">
                         <p class="hour">08:39</p>
                         <p class="msg-text">Olá, Bella. Eu preciso que...</p>
                     </div>
                 </div>
-                <div class="msg">
-                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                <div class="msg msg-mobile">
+                    <div class="profile"><img src="./images/user-msg2.jpeg" alt=""></div>
                     <div class="content">
                         <p class="hour">15:27</p>
                         <p class="msg-text">Preciso que me lembre quantos compromissos tenho essa semana...</p>
                     </div>
                 </div>
                 <div class="msg">
-                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="profile"><img src="./images/user-msg3.jpeg" alt=""></div>
                     <div class="content">
-                        <p class="hour">08:39</p>
-                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                        <p class="hour">08:10</p>
+                        <p class="msg-text">Tenho dentista dia 7 às 14h, preciso que me lembre 4h antes.</p>
                     </div>
                 </div>
                 <div class="msg">
-                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="profile"><img src="./images/user-msg4.jpeg" alt=""></div>
                     <div class="content">
-                        <p class="hour">08:39</p>
-                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                        <p class="hour">18:39</p>
+                        <p class="msg-text">Olá, Bella. Agende para mim...</p>
                     </div>
                 </div>
                 <div class="text">
@@ -180,24 +227,24 @@
                     </p>
                 </div>
                 <div class="msg">
-                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                    <div class="profile"><img src="./images/user-msg5.jpeg" alt=""></div>
                     <div class="content">
-                        <p class="hour">08:39</p>
-                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                        <p class="hour">13:17</p>
+                        <p class="msg-text">Opa! Eai. Me lembre dia 10/06...</p>
                     </div>
                 </div>
-                <div class="msg">
-                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                <div class="msg msg-mobile">
+                    <div class="profile"><img src="./images/user-msg6.jpeg" alt=""></div>
                     <div class="content">
-                        <p class="hour">08:39</p>
-                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                        <p class="hour">02:31</p>
+                        <p class="msg-text">Bella, Tenho reunião dia 9...</p>
                     </div>
                 </div>
-                <div class="msg">
-                    <div class="profile"><img src="./images/user-msg.jpeg" alt=""></div>
+                <div class="msg msg-mobile">
+                    <div class="profile"><img src="./images/user-msg7.jpeg" alt=""></div>
                     <div class="content">
-                        <p class="hour">08:39</p>
-                        <p class="msg-text">Olá, Bella. Eu preciso que...</p>
+                        <p class="hour">12:42</p>
+                        <p class="msg-text">Bella. Tenho uma reunião dia 5, pre...</p>
                     </div>
                 </div>
             </div>
@@ -230,7 +277,7 @@
                             nem sabia que eram possíveis. Recomendo a todos!"</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg.jpeg">
+                                <img src="./images/user-msg3.jpeg">
                             </div>
                             <div>
                                 <h3>Camilla Brito</h3>
@@ -244,7 +291,7 @@
                             A gestão de compromissos nunca foi tão fácil e clara, me livrei de muitas preocupações</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg.jpeg">
+                                <img src="./images/user-msg2.jpeg">
                             </div>
                             <div>
                                 <h3>Ricardo Barros</h3>
@@ -258,7 +305,7 @@
                             aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg.jpeg">
+                                <img src="./images/user-msg7.jpeg">
                             </div>
                             <div>
                                 <h3>Marina Kelly</h3>
@@ -272,7 +319,7 @@
                             aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg.jpeg">
+                                <img src="./images/user-msg8.jpeg">
                             </div>
                             <div>
                                 <h3>Marina Kelly</h3>
@@ -286,7 +333,7 @@
                             aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg.jpeg">
+                                <img src="./images/user-msg9.jpeg">
                             </div>
                             <div>
                                 <h3>Marina Kelly</h3>
@@ -301,7 +348,7 @@
                             aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg.jpeg">
+                                <img src="./images/user-msg10.jpeg">
                             </div>
                             <div>
                                 <h3>Marina Kelly</h3>
