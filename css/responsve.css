@@ -1,10 +1,4 @@
-@media (max-width: 1405px) {
-    .section-audio .container .block {
-        max-width: 475px;
-        height: 400px !important;
-    }
-
-}
+@media (max-width: 1405px) {}
 
 @media (max-width: 1270px) {
     section.section-main {
@@ -43,7 +37,18 @@
 
     .depositions-container .deposition-item {
         max-width: 312px;
+    }
 
+    .section-price .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+    }
+
+    .section-price .cards .card {
+        max-width: 600px;
     }
 }
 
@@ -60,11 +65,11 @@
     }
 
     nav.mobile {
-        display: flex;
+        display: none;
     }
 
     .hero {
-        margin-top: 140px;
+        margin-top: 55px;
     }
 
     .section-messages .container {
@@ -87,12 +92,43 @@
 @media (max-width: 930px) {
     .section-created-for {
         flex-direction: column;
+        background-color: #f6f6f6;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 8px;
+        border: 1px solid #ededed;
+    }
+
+
+    .section-created-for .accordion-item,
+    .section-created-for .container .accordion-button {
+        background-color: #f6f6f6;
+    }
+
+    .section-created-for .container {
+        padding: 20px;
+    }
+
+    .section-created-for img {
+        display: none;
+    }
+
+    .section-created-for .whats-mobile {
+        display: block;
     }
 
     .section-created-for .img {
         max-width: 750px;
         margin-bottom: 30px;
         flex: 0 0 0;
+        margin-top: -30px;
+    }
+
+    .hero .img-video {
+        display: block;
+        max-width: 650px;
+        margin: 40px auto 25px auto;
+        padding: 0px 42px;
     }
 }
 
@@ -103,9 +139,14 @@
     }
 
     .hero h1 {
-        font-size: 52.59px;
+        font-size: 42.59px;
         font-weight: 500;
-        line-height: 58.27px;
+        line-height: 48.27px;
+    }
+
+    .hero h1 img {
+        width: 42.59px;
+        margin-bottom: 18px;
     }
 
     .hero p {
@@ -114,6 +155,19 @@
 
     .section-benefits {
         margin-top: 80px;
+        grid-row: 3;
+    }
+
+    .section-audio {
+        grid-row: 4;
+    }
+
+    .section-audio h2 {
+        font-size: 32px;
+    }
+
+    .section-audio p {
+        font-size: 18px;
     }
 
     .section-benefits h2 {
@@ -121,6 +175,8 @@
         line-height: 45px;
     }
 
+    
+    
     .section-benefits .container {
         gap: 20px;
     }
@@ -129,6 +185,20 @@
         width: auto;
         max-width: 350px;
         height: auto;
+    }
+
+    .section-messages {
+        grid-row: 1;
+        
+    }
+
+    .section-created-for {
+        margin-top: 40px;
+        grid-row: 2;
+    }
+
+    .section-created-for .accordion-button {
+        font-size: 18px !important;
     }
 
     .section-messages .msg-mobile:nth-child(1) {
@@ -151,19 +221,63 @@
         max-width: 380px;
 
     }
+
+    .section-price {
+        grid-row: 5;
+    }
+
+    .section-depositions {
+        grid-row: 6;
+    }
+    .section-price .title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .section-price .card-price .img-bella {
+        background-position-y: -120px;
+    }
+
+    .section-questions h2 {
+        font-size: 32px;
+    }
+
+    .section-questions .questions {
+        width: auto;
+    }
+
+    .section-questions .questions .accordion-item button {
+        line-height: 25px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .section-questions {
+        margin-bottom: 70px;
+    }
+
+    .section-questions .container {
+        text-align: center;
+    }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 578px) { 
+
+    .section-presentation
     .hero h1 {
-        font-size: 42.59px;
+        font-size: 35.59px;
         font-weight: 500;
-        line-height: 50px;
+        line-height: 40px;
+    }
+
+    .hero h1 img {
+        width: 35.59px;
+        margin-bottom: 15px;
     }
 
     .hero p {
         font-size: 18px;
     }
-
 
     .section-benefits h2 {
         font-size: 26px;
@@ -191,41 +305,82 @@
     .section-messages .msg-mobile:nth-child(8) {
         margin-left: -100px !important;
     }
+
+    footer {
+        flex-direction: column;
+        max-width: 250px !important;
+    }
 }
 
 @media (max-width: 460px) {
     .hero h1 {
-        font-size: 35.59px;
+        font-size: 32.59px;
         font-weight: 500;
-        line-height: 40.27px;
+        line-height: 35.27px;
+    }
+
+    .hero h1 img {
+        width: 32.59px;
+        margin-bottom: 13px;
+
     }
 
     .hero p {
         font-size: 16px;
     }
 
-    .section-messages .msg-mobile:nth-child(1) {
-        margin-left: -70px !important;
+   .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -100px !important;
     }
 
     .section-messages .msg-mobile:nth-child(2) {
-        margin-left: 70px !important;
+        margin-left: 80px !important;
     }
 
     .section-messages .msg-mobile:nth-child(7) {
-        margin-left: 100px !important;
+        margin-left: 120px !important;
     }
 
     .section-messages .msg-mobile:nth-child(8) {
-        margin-left: -50px !important;
+        margin-left: -60px !important;
     }
+
+    .section-price .card-price .img-bella {
+        background-position-y: -90px;
+    }
+
+    .section-price .card-price a {
+        font-size: 16px;
+    }
+
+    .card-price .price h3, .card-price .price p {
+        font-size: 18px;
+    }
+
+    .section-price .card-price .payments img {
+        width: 20px;
+    }
+
+    .section-price .card-benefits .container {
+        font-size: 18px;
+        padding: 40px 26px;
+    }
+
+    .section-price .card-benefits li i {
+        font-size: 22px;
+    }
+
 }
 
-@media (max-width: 418px) {
+@media (max-width: 420px) {
     .hero h1 {
-        font-size: 32.59px;
+        font-size: 29.59px;
         font-weight: 500;
-        line-height: 35.27px;
+        line-height: 32.27px;
+    }
+
+    .hero h1 img {
+        width: 29.59px;
     }
 
     .hero p {
@@ -242,21 +397,5 @@
 
     .hero a.btn-blue {
         padding: 10px 20px;
-    }
-
-    .section-messages .msg-mobile:nth-child(1) {
-        margin-left: -60px !important;
-    }
-
-    .section-messages .msg-mobile:nth-child(2) {
-        margin-left: 60px !important;
-    }
-
-    .section-messages .msg-mobile:nth-child(7) {
-        margin-left: 90px !important;
-    }
-
-    .section-messages .msg-mobile:nth-child(8) {
-        margin-left: -10px !important;
     }
 }

@@ -17,6 +17,7 @@
 
 img {
     display: block;
+    object-fit: cover;
     width: 100%;
 }
 
@@ -34,3 +35,14 @@ img {
     max-width: 1214px;
     margin: 0 auto;
 }
+
+.in-mobile {
+    display: none;
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+}
+
+

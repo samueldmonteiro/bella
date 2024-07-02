@@ -15,6 +15,7 @@ nav.desktop {
     height: 44px;
     padding: 28px 0;
 }
+
 nav.mobile {
     display: none;
     padding: 10px 20px;
@@ -48,7 +49,8 @@ nav.desktop a {
     font-size: 13px;
 }
 
-nav.desktop .icon, nav.mobile .icon {
+nav.desktop .icon,
+nav.mobile .icon {
     width: 32px;
     height: 32px;
     display: flex;
@@ -58,7 +60,8 @@ nav.desktop .icon, nav.mobile .icon {
     border-radius: 50%;
 }
 
-nav.desktop .icon img, nav.desktop img {
+nav.desktop .icon img,
+nav.desktop img {
     object-fit: cover;
     border-radius: 50%;
 }
@@ -75,6 +78,12 @@ nav.desktop .icon img, nav.desktop img {
     margin-bottom: 20px;
     font-family: 'Product Sans', sans-serif;
     color: #2A2A31;
+}
+
+.hero h1 img {
+    width: 64px;
+    display: inline;
+    margin-bottom: 25px;
 }
 
 .hero p {
@@ -208,6 +217,10 @@ nav.desktop .icon img, nav.desktop img {
 
 .section-created-for .img {
     flex: 1 0 700px;
+}
+
+.section-created-for .whats-mobile {
+    display: none;
 }
 
 .section-created-for img {
@@ -443,45 +456,31 @@ nav.desktop .icon img, nav.desktop img {
 
 .section-audio {
     margin-top: 80px;
-}
-
-.section-audio .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-}
-
-.section-audio .container .block {
-    max-width: 575px;
-}
-
-.section-audio .block-audio {
-    background-color: #2a2a31;
-    height: 510px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
 }
 
-.section-audio .block-audio .content {
-    width: 100%;
-    text-align: center;
-}
-
-.section-audio .block-audio .content h3 {
+.section-audio h2 {
     font-family: 'Product Sans', sans-serif;
-    font-size: 34.27px;
+    font-size: 42px;
     font-weight: 700;
-    line-height: 43.59px;
-    color: white;
+    line-height: 53.42px;
+    color: #2A2A31;
 }
 
-.section-audio .block-audio audio {
-    margin: 40px 0px 20px 0px;
-    width: 70%;
+.section-audio p {
+    font-family: "Inter", sans-serif;
+    font-size: 21.52px;
+    font-weight: 400;
+    line-height: 28.7px;
+    color: #6C6C79;
+    margin-top: 8px;
+}
+
+.section-audio .img {
+    max-width: 350px;
+    margin-top: 40px;
 }
 
 .section-price {
@@ -553,6 +552,9 @@ nav.desktop .icon img, nav.desktop img {
     color: #6C6C79;
 }
 
+.section-price .card-price h2 {
+    font-size: 54px;
+}
 .section-price .card-price a {
     font-size: 19px;
 }
@@ -670,7 +672,6 @@ nav.desktop .icon img, nav.desktop img {
 
 .section-questions .questions .accordion-item button::after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233497F9'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-
 }
 
 .section-questions .accordion-body {
@@ -695,7 +696,6 @@ footer {
     padding: 8px 0px;
 }
 
-
 footer .developer {
     display: flex;
     align-items: center;
@@ -703,7 +703,7 @@ footer .developer {
 }
 
 footer a {
-   color: #B7B7BE !important;
+    color: #B7B7BE !important;
 }
 
 footer img {
