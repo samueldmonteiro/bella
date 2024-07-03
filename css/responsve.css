@@ -1,4 +1,6 @@
-@media (max-width: 1405px) {}
+@media (max-width: 1405px) {
+    
+}
 
 @media (max-width: 1270px) {
     section.section-main {
@@ -17,6 +19,8 @@
     .section-messages .text p {
         font-size: 18px;
     }
+
+    
 }
 
 @media (max-width: 1200px) {
@@ -30,12 +34,13 @@
         text-align: center;
     }
 
-    .depositions-container {
+    .deposition-swiper-container {
         justify-content: center;
+        flex-wrap: nowrap;
         gap: 30px;
     }
 
-    .depositions-container .deposition-item {
+    .deposition-swiper-container .deposition-item {
         max-width: 312px;
     }
 
@@ -130,6 +135,10 @@
         margin: 40px auto 25px auto;
         padding: 0px 42px;
     }
+
+    .section-presentation {
+        display: none;
+    }
 }
 
 
@@ -142,24 +151,27 @@
         font-size: 42.59px;
         font-weight: 500;
         line-height: 48.27px;
+        margin-bottom: 10px;
     }
 
     .hero h1 img {
         width: 42.59px;
         margin-bottom: 18px;
+        margin-top: 10px;
     }
 
     .hero p {
         font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .section-benefits {
         margin-top: 80px;
-        grid-row: 3;
+        grid-row: 4;
     }
 
     .section-audio {
-        grid-row: 4;
+        grid-row: 5;
     }
 
     .section-audio h2 {
@@ -176,8 +188,7 @@
     }
 
     
-    
-    .section-benefits .container {
+    .section-benefits .swiper-container {
         gap: 20px;
     }
 
@@ -188,13 +199,13 @@
     }
 
     .section-messages {
-        grid-row: 1;
+        grid-row: 2;
         
     }
 
     .section-created-for {
         margin-top: 40px;
-        grid-row: 2;
+        grid-row: 3;
     }
 
     .section-created-for .accordion-button {
@@ -217,17 +228,21 @@
         margin-left: -140px !important;
     }
 
-    .depositions-container .deposition-item {
+    .deposition-swiper-container .deposition-item {
         max-width: 380px;
 
     }
 
+    .carousel-bella {
+        grid-row:1; 
+    }
+
     .section-price {
-        grid-row: 5;
+        grid-row: 6;
     }
 
     .section-depositions {
-        grid-row: 6;
+        grid-row: 7;
     }
     .section-price .title {
         font-size: 32px;
@@ -261,12 +276,11 @@
     }
 }
 
-@media (max-width: 578px) { 
+@media (max-width: 580px) { 
 
-    .section-presentation
     .hero h1 {
         font-size: 35.59px;
-        font-weight: 500;
+        font-weight: 600 !important;
         line-height: 40px;
     }
 
@@ -292,6 +306,7 @@
 
     .section-messages .msg-mobile:nth-child(1) {
         margin-left: -100px !important;
+        margin-bottom: -30px !important;
     }
 
     .section-messages .msg-mobile:nth-child(2) {
@@ -300,6 +315,7 @@
 
     .section-messages .msg-mobile:nth-child(7) {
         margin-left: 140px !important;
+        margin-bottom: -30px !important;
     }
 
     .section-messages .msg-mobile:nth-child(8) {
@@ -309,6 +325,32 @@
     footer {
         flex-direction: column;
         max-width: 250px !important;
+    }
+
+    .line-mobile {
+        display: block;
+        color: red;
+        max-width: 300px;
+        margin: 40px auto 60px auto;
+    }
+
+    .line-desktop {
+        display: none !important;
+    }
+
+    .carousel-bella {
+        margin-top: -30px;
+    }
+
+    .carousel-bella .container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 20px;
+    }
+
+    .carousel-bella .container img {
+        width: 100%;
     }
 }
 
@@ -327,6 +369,13 @@
 
     .hero p {
         font-size: 16px;
+        margin: 0px 0px;
+        margin-bottom: -15px;
+    }
+
+    .img-video {
+        width: 100% !important;
+        padding: 0px 5px !important;
     }
 
    .section-messages .msg-mobile:nth-child(1) {
@@ -373,29 +422,6 @@
 }
 
 @media (max-width: 420px) {
-    .hero h1 {
-        font-size: 29.59px;
-        font-weight: 500;
-        line-height: 32.27px;
-    }
+   
 
-    .hero h1 img {
-        width: 29.59px;
-    }
-
-    .hero p {
-        font-size: 14px;
-    }
-
-    .hero a {
-        font-size: 13px;
-    }
-
-    .hero a i {
-        font-size: 30px;
-    }
-
-    .hero a.btn-blue {
-        padding: 10px 20px;
-    }
 }

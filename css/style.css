@@ -6,6 +6,9 @@ body {
     color: #212121;
 }
 
+
+
+
 nav.desktop {
     display: flex;
     justify-content: center;
@@ -156,6 +159,8 @@ nav.desktop img {
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .section-benefits h2 {
@@ -165,17 +170,46 @@ nav.desktop img {
     line-height: 54px;
     font-family: 'Product Sans', sans-serif;
     color: #2A2A31;
+    padding: 0 20px;
 }
 
-.section-benefits .container {
-    margin-top: 70px;
+.section-benefits .text-icon {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.7px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #6C6C79;
+}
+
+.section-benefits .text-icon img {
+    width: 25px;
+    display: inline-block;
+}
+
+.swiper-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 40px;
+    /* Adiciona padding nas laterais para mostrar parte do próximo slide */
+    margin-top: 28px;
+    max-width: 1200px;
+    /* Limita a largura máxima do contêiner */
+}
+
+.swiper-wrapper {
     display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
-.section-benefits .card-item {
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    /* Ajusta a largura do slide para evitar overflow */
+}
+
+.card-item {
     text-align: left;
     background-color: white;
     gap: 22px;
@@ -185,7 +219,7 @@ nav.desktop img {
     height: 340px;
 }
 
-.section-benefits .card-item h3 {
+.card-item h3 {
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 25px;
@@ -194,7 +228,7 @@ nav.desktop img {
     color: #2A2A31;
 }
 
-.section-benefits .card-item p {
+.card-item p {
     font-size: 16px;
     color: #6C6C79;
     line-height: 24px;
@@ -257,6 +291,32 @@ nav.desktop img {
     line-height: 24px;
     color: #6C6C79;
     text-align: left;
+}
+
+.carousel-mobile {
+    display: none;
+}
+
+.carousel-bella {
+    margin: 40px auto;
+    overflow: hidden;
+    /* Esconde conteúdo que excede a largura do container */
+    width: 100%;
+    /* Ajusta a largura conforme necessário */
+}
+
+.carousel-bella .container {
+    display: flex;
+    transition: transform 1s ease;
+    /* Transição suave para animação do carrossel */
+}
+
+.carousel-bella img {
+    width: 350px;
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-right: 20px;
+    /* Espaçamento entre as imagens */
 }
 
 .section-messages .container {
@@ -386,15 +446,18 @@ nav.desktop img {
     color: #6C6C79;
 }
 
+
+
 .depositions-container {
+    width: 100%;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 70px;
     font-family: "Inter", sans-serif;
 }
 
-.depositions-container .deposition-item {
+.deposition-item {
     background-color: white;
     max-width: 354px;
     display: flex;
@@ -405,7 +468,7 @@ nav.desktop img {
     gap: 21px;
     border-radius: 8px;
     margin-bottom: 31px;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .deposition-item .author {
@@ -430,17 +493,16 @@ nav.desktop img {
     line-height: 24px;
     text-align: left;
     color: #90909B;
-
 }
 
-.depositions-container .deposition-item .text {
+.deposition-item .text {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
 }
 
-.depositions-container .author .img {
+.deposition-item .author .img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -448,7 +510,7 @@ nav.desktop img {
     margin-bottom: 5px;
 }
 
-.depositions-container .author img {
+.deposition-item .author img {
     object-fit: cover;
     height: 45px;
 }
@@ -555,6 +617,7 @@ nav.desktop img {
 .section-price .card-price h2 {
     font-size: 54px;
 }
+
 .section-price .card-price a {
     font-size: 19px;
 }

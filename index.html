@@ -9,8 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsve.css">
-
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -90,35 +89,39 @@
                     <img src="images/whats-big.png" alt="Screenshot do Chat da Bella">
                 </div>
             </section>
-            <hr class="line">
+            <hr class="line line-desktop">
         </div>
 
         <section class="section-main section-benefits">
-            <h2>A sua própria secretária pessoal, <br> assim como nos filmes.</h2>
-
-            <div class="container">
-                <div class="card-item">
-                    <h3>Converse <br> Naturalmente</h3>
-                    <p>A Bella se comunica como um humano. Ela entende suas necessidades e sempre responde de maneira
-                        eficiente.</p>
-                </div>
-                <div class="card-item">
-                    <h3>Nunca mais esqueça <br> aniversários</h3>
-                    <p>Avise a Bella quando serão seus próximos compromissos e receba lembretes precisos e carinhosos
-                        através do seu WhatsApp.</p>
-                </div>
-                <div class="card-item">
-                    <h3>Nunca mais esqueça <br> reuniões</h3>
-                    <p>Diga adeus aos dias de esquecimento. A Bella mantém você atualizado sobre todas as suas reuniões,
-                        garantindo que você esteja sempre preparado e no horário.</p>
-                </div>
-                <div class="card-item">
-                    <h3>Nunca mais esqueça <br> datas especiais</h3>
-                    <p>Além de aniversários e reuniões, a Bella também lembra você de todas as datas importantes, sejam
-                        elas profissionais ou pessoais, para que você nunca perca um momento significativo.</p>
+            <h2>A sua própria secretária pessoal</h2>
+            <p class="text-icon">assim como nos filmes. <img src="./images/pipoca.png" alt=""></p>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card-item">
+                        <h3>Converse <br> Naturalmente</h3>
+                        <p>A Bella se comunica como um humano. Ela entende suas necessidades e sempre responde de
+                            maneira eficiente.</p>
+                    </div>
+                    <div class="swiper-slide card-item">
+                        <h3>Nunca mais esqueça <br> aniversários</h3>
+                        <p>Avise a Bella quando serão seus próximos compromissos e receba lembretes precisos e
+                            carinhosos através do seu WhatsApp.</p>
+                    </div>
+                    <div class="swiper-slide card-item">
+                        <h3>Nunca mais esqueça <br> reuniões</h3>
+                        <p>Diga adeus aos dias de esquecimento. A Bella mantém você atualizado sobre todas as suas
+                            reuniões, garantindo que você esteja sempre preparado e no horário.</p>
+                    </div>
+                    <div class="swiper-slide card-item">
+                        <h3>Nunca mais esqueça <br> datas especiais</h3>
+                        <p>Além de aniversários e reuniões, a Bella também lembra você de todas as datas importantes,
+                            sejam elas profissionais ou pessoais, para que você nunca perca um momento significativo.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
+
 
         <section class="section-main section-created-for">
             <div class="img">
@@ -173,26 +176,21 @@
                 </div>
             </div>
         </section>
-        <section style="display: none;" class="section-cards">
+
+        <section class="section-main carousel-bella carousel-desktop">
             <div class="container">
-                <div class="card">
-                    <img src="assets/images/card-1.png" alt="Essa é a Bella">
-                    <h3>Essa é a Bella.</h3>
-                </div>
-                <div class="card">
-                    <img src="assets/images/card-2.png" alt="Através do WhatsApp">
-                    <h3>Através do <br> WhatsApp</h3>
-                </div>
-                <div class="card">
-                    <img src="assets/images/card-3.png" alt="Conecte com Google Agenda">
-                    <h3>Conecte com <br> Google Agenda</h3>
-                </div>
-                <div class="card">
-                    <img src="assets/images/card-4.png" alt="Converse por áudios">
-                    <h3>Converse por <br> áudios</h3>
-                </div>
+                <img src="./images/img-c1.png" alt="Slide 1">
+                <img src="./images/img-c2.png" alt="Slide 2">
+                <img src="./images/img-c3.png" alt="Slide 3">
+                <img src="./images/img-c4.png" alt="Slide 4">
+                <img src="./images/img-c5.png" alt="Slide 5">
+                <img src="./images/img-c6.png" alt="Slide 6">
+                <img src="./images/img-c7.png" alt="Slide 7">
             </div>
+
         </section>
+
+
         <section class="section-main section-messages">
             <div class="container">
                 <div class="msg msg-mobile">
@@ -250,7 +248,11 @@
                     </div>
                 </div>
             </div>
+        <hr class="line in-mobile line-mobile">
+
         </section>
+
+
         <section class="section-main section-depositions">
             <div class="container">
                 <div class="context">
@@ -272,14 +274,19 @@
                     </div>
                 </div>
 
-                <div class="depositions-container">
+            </div>
+        </section>
+
+        <div class="section-main swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
                     <div class="deposition-item">
                         <p class="text">"Uma revolução no meu planejamento diário. A Bella simplificou minha vida de
-                            maneiras que eu
-                            nem sabia que eram possíveis. Recomendo a todos!"</p>
+                            maneiras que eu nem sabia que eram possíveis. Recomendo a todos!"</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg3.jpeg">
+                                <img src="./images/user-msg3.jpeg" alt="Foto do autor">
                             </div>
                             <div>
                                 <h3>Camilla Brito</h3>
@@ -287,13 +294,17 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
                     <div class="deposition-item">
                         <p class="text">Estou impressionado com a capacidade da Bella de se integrar perfeitamente ao
-                            meu dia a dia.
-                            A gestão de compromissos nunca foi tão fácil e clara, me livrei de muitas preocupações</p>
+                            meu dia a dia. A gestão de compromissos nunca foi tão fácil e clara, me livrei de muitas
+                            preocupações</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg2.jpeg">
+                                <img src="./images/user-msg2.jpeg" alt="Foto do autor">
                             </div>
                             <div>
                                 <h3>Ricardo Barros</h3>
@@ -301,56 +312,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="deposition-item">
-                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
-                            incomparável, nenhum
-                            aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
-                        <div class="author">
-                            <div class="img">
-                                <img src="./images/user-msg7.jpeg">
-                            </div>
-                            <div>
-                                <h3>Marina Kelly</h3>
-                                <p>São Paulo, SP</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="deposition-item">
-                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
-                            incomparável, nenhum
-                            aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
-                        <div class="author">
-                            <div class="img">
-                                <img src="./images/user-msg8.jpeg">
-                            </div>
-                            <div>
-                                <h3>Marina Kelly</h3>
-                                <p>São Paulo, SP</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="deposition-item">
-                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
-                            incomparável, nenhum
-                            aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
-                        <div class="author">
-                            <div class="img">
-                                <img src="./images/user-msg9.jpeg">
-                            </div>
-                            <div>
-                                <h3>Marina Kelly</h3>
-                                <p>São Paulo, SP</p>
-                            </div>
-                        </div>
-                    </div>
+                </div>
 
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
                     <div class="deposition-item">
                         <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
-                            incomparável, nenhum
-                            aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira surreal.</p>
+                            incomparável, nenhum aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira
+                            surreal.</p>
                         <div class="author">
                             <div class="img">
-                                <img src="./images/user-msg10.jpeg">
+                                <img src="./images/user-msg7.jpeg" alt="Foto do autor">
                             </div>
                             <div>
                                 <h3>Marina Kelly</h3>
@@ -359,8 +331,63 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="deposition-item">
+                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
+                            incomparável, nenhum aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira
+                            surreal.</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg8.jpeg" alt="Foto do autor">
+                            </div>
+                            <div>
+                                <h3>Marina Kelly</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <div class="deposition-item">
+                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
+                            incomparável, nenhum aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira
+                            surreal.</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg9.jpeg" alt="Foto do autor">
+                            </div>
+                            <div>
+                                <h3>Marina Kelly</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <div class="swiper-slide">
+                    <div class="deposition-item">
+                        <p class="text">A Bella superou todas as minhas expectativas. A facilidade de uso é
+                            incomparável, nenhum aplicativo funcionava pra mim, mas a Gabi é prática de uma maneira
+                            surreal.</p>
+                        <div class="author">
+                            <div class="img">
+                                <img src="./images/user-msg10.jpeg" alt="Foto do autor">
+                            </div>
+                            <div>
+                                <h3>Marina Kelly</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </section>
+        </div>
 
         <section class="section-main section-audio">
             <h2>O Futuro chegou!</h2>
@@ -495,7 +522,7 @@
                 </div>
             </div>
         </section>
-        <hr class="line">
+        <hr class="line line-desktop">
         <footer class="section-main">
             <span>Copyright © 2024 <a href="">Politicas de Uso</a> | Todos os direitos reservados</span>
             <div class="developer">
@@ -507,6 +534,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="./app.js"></script>
 </body>
 
