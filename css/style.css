@@ -314,11 +314,20 @@ nav.desktop img {
 .carousel-bella img {
     width: 350px;
     height: auto;
-    /* Mantém a proporção da imagem */
     margin-right: 20px;
-    /* Espaçamento entre as imagens */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    opacity: 0;
+    animation: carousel-b 2s ease-out forwards;
 }
 
+@keyframes carousel-b {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .section-messages .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -460,6 +469,7 @@ nav.desktop img {
 .deposition-item {
     background-color: white;
     max-width: 354px;
+    min-height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
