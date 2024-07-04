@@ -1,0 +1,433 @@
+@media (max-width: 1405px) {
+    /* Estilos específicos para larguras abaixo de 1405px podem ser adicionados aqui */
+}
+
+@media (max-width: 1270px) {
+    section.section-main {
+        padding: 0 15px;
+    }
+
+    .section-messages .text {
+        min-width: 260px !important;
+        text-align: center;
+    }
+
+    .section-messages .text h2 {
+        font-size: 40px;
+    }
+
+    .section-messages .text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-depositions .context {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-depositions .context p,
+    .section-depositions .text {
+        text-align: center;
+    }
+
+    .deposition-swiper-container {
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
+
+    .deposition-swiper-container .deposition-item {
+        max-width: 312px;
+    }
+
+    .section-price .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+    }
+
+    .section-price .cards .card {
+        max-width: 600px;
+    }
+
+    .depositions-container {
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1116px) {
+    .section-created-for .img {
+        flex: 1 0 500px;
+    }
+}
+
+@media (max-width: 1045px) {
+    nav.desktop,
+    nav.mobile {
+        display: none;
+    }
+
+    .hero {
+        margin-top: 55px;
+    }
+
+    .section-messages .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-messages .msg {
+        display: none;
+        margin: 0 !important;
+    }
+
+    .section-messages .msg-mobile {
+        display: flex;
+    }
+
+    .section-benefits .container {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media (max-width: 930px) {
+
+    .line-desktop {
+        display: none !important;
+    }
+    .section-created-for {
+        flex-direction: column;
+        background-color: #f6f6f6;
+        margin: 0 20px;
+        border-radius: 8px;
+        border: 1px solid #ededed;
+    }
+
+    .section-created-for .accordion-item,
+    .section-created-for .container .accordion-button {
+        background-color: #f6f6f6;
+    }
+
+    .section-created-for .container {
+        padding: 20px;
+        margin-top: -50px;
+    }
+
+    .section-created-for img {
+        display: none;
+    }
+
+    .section-created-for .whats-mobile {
+        display: block;
+        margin-top: 14px;
+    }
+
+    .section-created-for .img {
+        max-width: 750px;
+        margin: -30px 0 30px;
+        flex: 0 0 0;
+    }
+
+    .hero .img-video {
+        display: block;
+        max-width: 650px;
+        margin: 40px auto 25px;
+        padding: 0 42px;
+    }
+
+    .section-presentation {
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    .hero {
+        padding: 0 5px;
+    }
+
+    .hero h1 {
+        font-size: 42.59px;
+        font-weight: 500;
+        line-height: 48.27px;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 img {
+        width: 42.59px;
+        margin: 10px 0 18px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-benefits {
+        margin-top: 80px;
+        grid-row: 4;
+    }
+
+    .section-audio {
+        grid-row: 5;
+    }
+
+    .section-audio h2 {
+        font-size: 32px;
+    }
+
+    .section-audio p {
+        font-size: 18px;
+    }
+
+    .section-benefits h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .section-benefits .swiper-container {
+        gap: 20px;
+    }
+
+    .section-benefits .card-item {
+        width: auto;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .section-messages {
+        grid-row: 2;
+    }
+
+    .section-created-for {
+        margin-top: 40px;
+        grid-row: 3;
+    }
+
+    .section-created-for .accordion-button {
+        font-size: 18px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -200px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(2) {
+        margin-left: 200px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(7) {
+        margin-left: 200px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(8) {
+        margin-left: -140px !important;
+    }
+
+    .deposition-swiper-container .deposition-item {
+        max-width: 380px;
+    }
+
+    .carousel-bella {
+        grid-row: 1;
+    }
+
+    .section-price {
+        grid-row: 6;
+    }
+
+    .section-depositions {
+        grid-row: 7;
+    }
+
+    .section-price .title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .section-price .card-price .img-bella {
+        background-position-y: -120px;
+    }
+
+    .section-questions h2 {
+        font-size: 32px;
+    }
+
+    .section-questions .questions {
+        width: auto;
+    }
+
+    .section-questions .questions .accordion-item button {
+        line-height: 25px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .section-questions {
+        margin-bottom: 70px;
+    }
+
+    .section-questions .container {
+        text-align: center;
+    }
+
+    
+}
+
+@media (max-width: 580px) {
+
+    .hero h1 {
+        font-size: 35.59px;
+        font-weight: 600 !important;
+        line-height: 40px;
+    }
+
+    .hero h1 img {
+        width: 35.59px;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .section-benefits h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .section-benefits .card-item {
+        width: auto;
+        max-width: 270px;
+        height: auto;
+    }
+
+    .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -100px !important;
+        margin-bottom: -30px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(2) {
+        margin-left: 100px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(7) {
+        margin-left: 140px !important;
+        margin-bottom: -30px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(8) {
+        margin-left: -100px !important;
+    }
+
+    footer {
+        flex-direction: column;
+        max-width: 250px !important;
+    }
+
+    .line-mobile {
+        display: block;
+        color: red;
+        max-width: 300px;
+        margin: 40px auto 60px;
+    }
+
+    .carousel-bella {
+        margin-top: -30px;
+    }
+
+    .carousel-bella .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 20px;
+    }
+
+    .carousel-bella .container img {
+        width: 100%;
+    }
+
+    .swiper-container {
+        display: flex;
+    }
+
+    .depositions-desktop, .section-benefits .container {
+        display: none;
+    }
+}
+
+@media (max-width: 460px) {
+    .hero h1 {
+        font-size: 32.59px;
+        font-weight: 500;
+        line-height: 35.27px;
+    }
+
+    .hero h1 img {
+        width: 32.59px;
+        margin-bottom: 13px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-bottom: -15px;
+    }
+
+    .img-video {
+        width: 100% !important;
+        padding: 0 5px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(1) {
+        margin-left: -100px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(2) {
+        margin-left: 80px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(7) {
+        margin-left: 120px !important;
+    }
+
+    .section-messages .msg-mobile:nth-child(8) {
+        margin-left: -60px !important;
+    }
+
+    .section-price .card-price .img-bella {
+        background-position-y: -90px;
+    }
+
+    .section-price .card-price a {
+        font-size: 16px;
+    }
+
+    .card-price .price h3,
+    .card-price .price p {
+        font-size: 18px;
+    }
+
+    .section-price .card-price .payments img {
+        width: 20px;
+    }
+
+    .section-price .card-benefits .container {
+        font-size: 18px;
+        padding: 40px 26px;
+    }
+
+    .section-price .card-benefits li i {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+    /* Estilos específicos para larguras abaixo de 420px podem ser adicionados aqui */
+}
