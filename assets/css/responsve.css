@@ -96,8 +96,6 @@
     }
 }
 
-
-
 @media (max-width: 930px) {
 
     .line-desktop {
@@ -200,6 +198,7 @@
         width: auto;
         max-width: 350px;
         height: auto;
+        max-height: 350px;
     }
 
     .section-messages {
@@ -306,7 +305,6 @@
     .section-benefits .card-item {
         width: auto;
         max-width: 270px;
-        height: auto;
     }
 
     .section-messages .msg-mobile:nth-child(1) {
@@ -360,6 +358,10 @@
 
     .depositions-desktop, .section-benefits .container {
         display: none;
+    }
+
+    .deposition-item {
+        height: 320px;
     }
 }
 

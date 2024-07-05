@@ -190,7 +190,6 @@ nav.desktop img {
     align-items: center;
     gap: 40px;
     margin-top: 30px;
-    margin-bottom: 40px;
 }
 
 .swiper-container {
@@ -489,7 +488,6 @@ nav.desktop img {
     gap: 21px;
     border-radius: 8px;
     margin-bottom: 31px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .deposition-item .author {
@@ -517,10 +515,12 @@ nav.desktop img {
 }
 
 .deposition-item .text {
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
+    color:#6C6C79;
 }
 
 .deposition-item .author .img {
