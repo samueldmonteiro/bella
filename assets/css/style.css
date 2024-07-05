@@ -777,7 +777,9 @@ footer {
     align-items: center;
     justify-content: space-between;
     color: #B7B7BE;
-    padding: 8px 0px;
+    padding: 8px 20px;
+    column-gap: 40px;
+    width: 100%;
 }
 
 footer .developer {

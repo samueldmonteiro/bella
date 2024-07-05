@@ -34,7 +34,7 @@ const container = document.querySelector('.carousel-desktop .container');
 gsap.to(container, {
     x: -container.scrollWidth + document.documentElement.clientWidth,
     opacity: 1, // Anima a opacidade para 1
-    duration: 20,
+    duration: 8,
     ease: "power1.inOut",
     repeat: -1
 });

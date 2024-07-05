@@ -277,7 +277,10 @@
         text-align: center;
     }
 
-    
+    footer {
+        flex-direction: column;
+        max-width: 280px !important;
+    }
 }
 
 @media (max-width: 580px) {
@@ -323,11 +326,6 @@
 
     .section-messages .msg-mobile:nth-child(8) {
         margin-left: -100px !important;
-    }
-
-    footer {
-        flex-direction: column;
-        max-width: 250px !important;
     }
 
     .line-mobile {
