@@ -385,6 +385,14 @@
 
 @media (max-width: 460px) {
 
+    .despositions-mobile .swiper-wrapper {
+        gap: 60px;
+    }
+
+    .deposition-item {
+        height: 320px;
+        width: 370px !important;
+    }
 
     .hero h1 {
         font-size: 29px;
@@ -464,8 +472,13 @@
     .section-price .card-benefits .container {
         font-size: 17px;
         line-height: 27px;
-        padding: 40px 29px;
+        padding: 40px 19px;
         text-align: left;
+    }
+
+    .btn-duvidas {
+        font-size: 17px !important;
+        margin: 0 auto;
     }
 
     .section-price .card-benefits li i {
