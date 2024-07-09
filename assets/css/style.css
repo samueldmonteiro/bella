@@ -4,6 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #FAFAFA;
     color: #212121;
+    margin: 0;
 }
 
 nav.desktop {
@@ -67,7 +68,7 @@ nav.desktop img {
 }
 
 .hero {
-    margin: 110px 0 70px;
+    margin: 110px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +209,7 @@ nav.desktop img {
     max-width: 1200px;
     /* Limita a largura máxima do contêiner */
     display: none;
+   
 }
 
 .swiper-wrapper {
@@ -318,6 +320,7 @@ nav.desktop img {
     /* Esconde conteúdo que excede a largura do container */
     width: 100%;
     /* Ajusta a largura conforme necessário */
+
 }
 
 .carousel-bella .container {
@@ -343,6 +346,8 @@ nav.desktop img {
         opacity: 1;
     }
 }
+
+
 .section-messages .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -576,6 +581,7 @@ nav.desktop img {
 
 .section-price {
     margin-top: 90px;
+
 }
 
 .section-price .title {
@@ -761,6 +767,10 @@ nav.desktop img {
     box-shadow: none !important;
 }
 
+.section-questions .questions button span {
+    margin-right: 20px;
+}
+
 
 .section-questions .questions .accordion-item button::after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233497F9'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
@@ -804,3 +814,5 @@ footer img {
     width: 56px;
     object-fit: cover;
 }
+
+

@@ -137,8 +137,8 @@
     .hero .img-video {
         display: block;
         max-width: 650px;
-        margin: 40px 0px 30px 0px;
-        padding: 0 42px;
+        margin: 10px 0px 30px 0px;
+        padding: 0 20px;
     }
 
     .section-presentation {
@@ -270,6 +270,10 @@
         font-size: 14px;
     }
 
+    .section-questions .questions .accordion-item button: {
+        word-break: break-all;
+    }
+
     .section-questions {
         margin-bottom: 70px;
     }
@@ -303,6 +307,7 @@
 
     .hero p {
         font-size: 18px;
+        margin-top: -10px;
     }
 
     .section-benefits h2 {
@@ -381,12 +386,30 @@
     .deposition-item {
         height: 320px;
     }
+    
+    .section-price .card-price .price {
+        padding: 20px;
+    }
+
+    .card-price .btn-blue {
+        font-size: 16px !important;
+    }
+
+    .section-questions h2 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    .section-depositions .context h2 {
+        margin: 10px 0px;
+    }
+    
 }
 
 @media (max-width: 460px) {
 
-    .despositions-mobile .swiper-wrapper {
-        gap: 60px;
+    .depositions-mobile .swiper-wrapper {
+        column-gap: 90px;
     }
 
     .deposition-item {
@@ -395,15 +418,16 @@
     }
 
     .hero h1 {
-        font-size: 29px;
+        font-size: 32px;
         margin-bottom: 0px;
-        line-height: 25px;
+        line-height: 15px;
         text-align: left;
+        padding: 0px 10px;
     }
 
     .hero h1 img {
-        width: 28px;
-        margin-bottom: 20px;
+        width: 32px;
+        margin-bottom: 26px;
     }
 
     .hero p {
@@ -412,6 +436,7 @@
     }
 
     .img-video {
+        margin: 40px 0px 22px 0px!important;
         width: 100% !important;
         padding: 0 20px !important;
     }
@@ -422,7 +447,6 @@
 
     .btn-blue {
         padding: 7px 25px;
-        white-space: nowrap;
     }
 
     .btn-assistir img {
@@ -483,5 +507,69 @@
 
     .section-price .card-benefits li i {
         font-size: 22px;
+    }
+}
+
+
+
+
+@media (max-width: 405px) {
+    .hero h1 {
+        font-size: 29px;
+        line-height: 12px;
+    }
+
+    .hero h1 img {
+        width: 29px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero h1 {
+        font-size: 26px;
+        line-height: 12px;
+    }
+
+    .hero h1 img {
+        width: 26px;
+    }
+
+    .card-price .btn-blue {
+        font-size: 13px !important;
+    }
+
+    .section-price .title{
+        font-size: 28px;
+    }
+
+    .section-price .price h2 {
+        font-size: 45px;
+    }
+
+    .section-price .price h3 {
+        font-size: 16px;
+    }
+
+    .section-price .price p {
+        font-size: 16px;
+    }
+
+    .card-benefits .container{
+        font-size: 14px !important;
+    }
+
+    .price .payments {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 345px) {
+    .hero h1 {
+        font-size: 24px;
+        line-height: 12px;
+    }
+
+    .hero h1 img {
+        width: 24px;
     }
 }
