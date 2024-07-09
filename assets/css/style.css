@@ -68,7 +68,9 @@ nav.desktop img {
 
 .hero {
     margin: 110px 0 70px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero h1 {
@@ -101,8 +103,8 @@ nav.desktop img {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 400;
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
 }
 
 .btn-assistir {
@@ -110,7 +112,8 @@ nav.desktop img {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-weight: normal;
+    font-family: 'Product Sans', sans-serif;
+
 }
 
 .btn-assistir img {
@@ -176,11 +179,15 @@ nav.desktop img {
     text-align: center;
     font-family: "Inter", sans-serif;
     color: #6C6C79;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-benefits .text-icon img {
-    width: 25px;
+    width: 18px;
     display: inline-block;
+    margin-left: 5px;
 }
 
 .section-benefits .container {
@@ -386,16 +393,18 @@ nav.desktop img {
 }
 
 .section-messages .msg .profile {
-    width: 45px;
-    height: 45px;
+    width: 45px !important;
+    height: 45px !important;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 5px;
 }
 
+
 .section-messages .msg .profile img {
     object-fit: cover;
     height: 45px !important;
+    width: 45px !important;
 }
 
 .section-messages .msg .hour {
@@ -410,7 +419,7 @@ nav.desktop img {
 
 .section-messages .msg .msg-text {
     font-family: "Roboto", sans-serif;
-    font-size: 12.99px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 15.23px;
     text-align: left;
@@ -536,7 +545,6 @@ nav.desktop img {
     height: 45px;
 }
 
-
 .section-audio {
     margin-top: 80px;
     display: flex;
@@ -558,12 +566,12 @@ nav.desktop img {
     font-weight: 400;
     line-height: 28.7px;
     color: #6C6C79;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 .section-audio .img {
     max-width: 350px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .section-price {
@@ -651,7 +659,7 @@ nav.desktop img {
 }
 
 .section-price .card-price .payments img {
-    width: 25px;
+    width: 27px;
 }
 
 .section-price .card-benefits .container {
